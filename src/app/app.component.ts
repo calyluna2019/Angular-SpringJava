@@ -9,5 +9,5 @@ export class AppComponent {
   title = 'clientes-app';
 
   curso: string = 'Curso spring 5 con angular 7';
-  profesor: string = 'Carlos luna';
+  profesor: string = 'Juan Perez';
 }
