@@ -9,9 +9,15 @@ export class DirectivaComponent implements OnInit {
 
   listaCurso: string[] = ['TypeScript', 'JavaScript', 'JavaSpring', 'PHP', 'C#']
 
+  habilitar: boolean = true;
+
   constructor() {}
 
   ngOnInit(): void {
+  }
+
+  setHabilitar(): void {
+    this.habilitar = (this.habilitar==true)?false: true;
   }
 
 }
